@@ -1,0 +1,81 @@
+.table-wrapp {
+  border-radius: 8px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+.tableFixHead {
+  overflow-y: hidden;
+
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+}
+.tableFixHead th {
+  position: sticky;
+  top: 0;
+}
+.table_cell {
+  width: 100%;
+  height: auto;
+  table-layout: auto;
+  width: 100%;
+  background-color: #fff;
+  color: #c8c8cf;
+  font-family: "Nunito", sans-serif !important;
+  min-width: 1000px;
+}
+
+.table_cell thead,
+tbody {
+  border-bottom: none !important;
+}
+
+.table_cell th {
+  border-top: none !important;
+  vertical-align: middle !important;
+  background-color: #fff;
+
+  color: #000;
+  height: 54px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.table_cell tbody {
+  max-height: 250px !important;
+  overflow: auto;
+  background-color: #fff;
+}
+.table_cell td {
+  height: auto;
+  border-bottom: 2px solid #ecedf9 !important;
+  vertical-align: middle !important;
+  font-weight: 600;
+}
+.cell {
+  color: #747693;
+  min-height: 60px;
+  height: auto;
+  padding: 5px;
+  word-break: break-all;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.user_icon {
+  width: 27px;
+  height: 27px;
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.table_cell tr:hover td {
+  background-color: #fafafe;
+}
+
+.table_cell tr:hover td .cell {
+  color: #000 !important;
+}

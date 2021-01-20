@@ -1,0 +1,32 @@
+.normal-button {
+  position: relative;
+  width: 140px;
+  height: 42px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #828eeb;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.clear-button {
+  position: relative;
+  width: 140px;
+  height: 42px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #afb7fd;
+  color: #afb7fd;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .normal-button {
+    width: 100%;
+  }
+  .clear-button {
+    width: 100%;
+  }
+}

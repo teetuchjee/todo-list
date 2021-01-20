@@ -1,0 +1,33 @@
+.header-container {
+  width: 100%;
+  height: 80px;
+  max-height: 80px;
+  top: 0px;
+  z-index: 3;
+  position: fixed;
+  box-shadow: 0 2px 12px 0 rgba(28, 31, 53, 0.6);
+  background-color: #242740;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+
+.menu {
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.menu:hover {
+  color: #828eeb;
+}
+
+.active {
+  color: #828eeb;
+}
