@@ -44,12 +44,6 @@ const Home = (props) => {
     selected_status: "",
   });
 
-  const [filter, setFilter] = useState({
-    todo: "",
-    status: "",
-    selected_status: "",
-  });
-
   const [todoList, setTodoList] = useState([]);
 
   const [formValidate, setFormValidate] = useState(validate);
