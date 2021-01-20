@@ -154,7 +154,7 @@ const Home = (props) => {
         </div>
       </FilterPanel>
       <Panel>
-        <div className="w-full flex tl:flex-col tl:space-y-3  md:space-x-3 mt-3">
+        <div className="w-full flex tl:flex-col tl:space-y-5  md:space-x-3 mt-3">
           <TextInput
             name="todo"
             onChange={onChangeInput}
@@ -173,7 +173,11 @@ const Home = (props) => {
             required={true}
             message={formValidate.status.message && "Please select status."}
           />
-          <Button onClick={() => onSubmit()} marginTop="5px">
+          <Button
+            onClick={() => onSubmit()}
+            className="normal-button add"
+            marginTop="5px"
+          >
             ADD
           </Button>
         </div>

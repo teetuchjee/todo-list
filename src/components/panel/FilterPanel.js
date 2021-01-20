@@ -59,7 +59,7 @@ FilterPanel.ClearButton = ({ onClick, disabled }) => {
   return (
     <Button
       disabled={disabled}
-      className="clear-button"
+      className="clear-button "
       width="100%"
       height={40}
       textCenter

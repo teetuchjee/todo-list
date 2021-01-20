@@ -29,4 +29,7 @@
   .clear-button {
     width: 100%;
   }
+  .add {
+    margin-top: 1.5rem !important;
+  }
 }
